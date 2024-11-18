@@ -40,7 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { GP9, GP1, GP4, GP5, GP28 }
 #define MATRIX_COL_PINS { GP23, GP22, GP21, GP20, GP19, GP18, GP17, GP16, GP10, GP11, GP6, GP0 }
 
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 #define TAPPING_TERM 200
 
