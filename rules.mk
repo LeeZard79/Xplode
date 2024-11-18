@@ -20,8 +20,8 @@ BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 
 RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_DRIVER = SK6812MINI E
-SK6812MINI_E_DRIVER = vendor
+RGB_MATRIX_DRIVER = WS2812
+WS2812_DRIVER = vendor
 
 API_SYSEX_ENABLE = no
 TAP_DANCE_ENABLE = yes
