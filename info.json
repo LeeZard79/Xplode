@@ -1,9 +1,0 @@
-{
-    "keyboard_name": "XPLODE", 
-    "url": "https://www.keyboard-layout-editor.com/#/gists/440f7884128e9729e4a06ef07f2cb5db", 
-    "maintainer": "qmk", 
-    "width": 13, 
-    "height": 5, 
-    "layouts": {
-        "LAYOUT": {
-            "layout"
