@@ -1,5 +1,4 @@
 /*
-Copyright 2021 Noah Kiser (contact@kiserdesigns.com)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,16 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 11
 
-#define LED0_PIN GP25
-#define LED1_PIN GP26
-#define LED2_PIN GP27
-
-// flip the 0 to a 1 to go back to a regular caps lock indicator, or remove these 2 lines entirely to eliminate the caps lock indicator function
-#define LED_CAPS_LOCK_PIN GP25
-#define LED_PIN_ON_STATE 0
-
-#define MATRIX_ROW_PINS { GP9, GP1, GP4, GP5, GP28 }
-#define MATRIX_COL_PINS { GP23, GP22, GP21, GP20, GP19, GP18, GP17, GP16, GP10, GP11, GP6, GP0 }
+#define MATRIX_ROW_PINS { GP6, GP2, GP3, GP32, GP11 }
+#define MATRIX_COL_PINS { GP30, GP31, GP34, GP4, GP27, GP28, GP29, GP35, GP36, GP14, GP8, GP13 }
 
 #define DIODE_DIRECTION ROW2COL
 
