@@ -19,10 +19,6 @@ UNICODE_ENABLE = yes        # Unicode
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 
-RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_DRIVER = is31fl3218
-WS2812_DRIVER = vendor
-
 API_SYSEX_ENABLE = no
 TAP_DANCE_ENABLE = yes
 ENCODER_ENABLE = yes
