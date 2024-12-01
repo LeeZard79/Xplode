@@ -26,13 +26,13 @@
         "enabled": true,
         "rotary": [
             {
-                "pin_a": "GP17", "pin_b": "GP18"
+                "pin_a": "GP14", "pin_b": "GP15"
             }
         ]
     },
      "ws2812": {
         "driver": "vendor",
-        "pin": "GP37"
+        "pin": "GP25"
     },
     "rgb_matrix": {
         "animations": {
