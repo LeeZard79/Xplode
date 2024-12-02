@@ -2,8 +2,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include "config_common.h"
-
 #define VENDOR_ID       0x4200
 #define PRODUCT_ID      0xL420
 #define DEVICE_VER 	0x0001
@@ -11,7 +9,7 @@
 #define PRODUCT         XPLODE V1
 
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 11
+#define MATRIX_COLS 12
 
 #define MATRIX_ROW_PINS { GP4, GP1, GP0, GP21, GP8 }
 #define MATRIX_COL_PINS { GP19, GP20, GP16, GP22, GP16, GP17, GP18, GP23, GP24, GP11, GP6, GP10 }
