@@ -1,12 +1,6 @@
-
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define VENDOR_ID       0x4200
-#define PRODUCT_ID      0xL420
-#define DEVICE_VER 	0x0001
-#define MANUFACTURER    LeeSKeeBS
-#define PRODUCT         XPLODE V1
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 12
@@ -23,7 +17,7 @@
 
 #define ENCODER_RESOLUTIONS { 4 }
 
-#define RGB_DI_PIN GP25
+#define WS2812_DI_PIN GP25
 #define DRIVER_LED_TOTAL 50
 #define RGB_MATRIX_LED_COUNT 50
 #define RGBLED_NUM 50
