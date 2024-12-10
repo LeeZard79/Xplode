@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "Xplode",
+    "keyboard_name": "xplode",
     "maintainer": "LeesKeeBS",
     "manufacturer": "LeesKeeBS",
     "processor": "RP2040",
@@ -134,3 +134,4 @@
         }
     }
 }
+    
