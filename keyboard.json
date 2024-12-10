@@ -27,14 +27,12 @@
         ]
     },
     "diode_direction": "COL2ROW",
-    "dynamic_keymap": {
-        "layer_count": 4
-    },
+
     "matrix_pins": {
         "rows": ["GP1", "GP4", "GP21", "GP10", "GP8" ],
         "cols": ["GP19", "GP20", "GP16", "GP17", "GP18", "GP2", "GP6", "GP11", "GP10", "GP22", "GP23", "GP24" ]
 
-     },
+    },
 
      "rgb_matrix": {
         "animations": {
@@ -75,8 +73,8 @@
         "max_brightness": 200
     
     },
-     "layouts": {
-        "LAYOUT_5x12": {
+     "layout": {
+        "LAYOUT": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
@@ -136,4 +134,3 @@
         }
     }
 }
-    
