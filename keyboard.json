@@ -1,30 +1,82 @@
 {
-    "manufacturer": "lfischer79",
-    "keyboard_name": "xplode",
-    "maintainer": "lfischer79",
+    "keyboard_name": "Xplode",
+    "maintainer": "LeesKeeBS",
+    "manufacturer": "LeesKeeBS",
+    "processor": "RP2040",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0087",
+        "device_version": "0.0.1"
+    },
     "features": {
-        "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
+        "bootmagic": false,
         "mousekey": true,
-        "nkro": true
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": true,
+        "rgb_matrix": true
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {
+                "pin_a": "GP14", "pin_b": "GP15"
+            }
+        ]
+    },
+    "diode_direction": "COL2ROW",
+    "dynamic_keymap": {
+        "layer_count": 4
     },
     "matrix_pins": {
-        "cols": ["GP19", "GP20", "GP16", "GP17", "GP18", "GP2", "GP6", "GP11", "GP10", "GP22", "GP23", "GP24"],
-        "rows": ["GP4", "GP1", "GP0", "GP21", "GP8"]
+        "rows": ["GP1", "GP4", "GP21", "GP10", "GP8" ],
+        "cols": ["GP19", "GP20", "GP16", "GP17", "GP18", "GP2", "GP6", "GP11", "GP10", "GP22", "GP23", "GP24" ]
+
+     },
+
+     "rgb_matrix": {
+        "animations": {
+            "alphas_mods": true,
+            "gradient_up_down": true,
+            "gradient_left_right": true,
+            "breathing": true,
+            "band_sat": true,
+            "band_val": true,
+            "band_pinwheel_sat": true,
+            "band_pinwheel_val": true,
+            "band_spiral_sat": true,
+            "band_spiral_val": true,
+            "cycle_all": true,
+            "cycle_left_right": true,
+            "cycle_up_down": true,
+            "rainbow_moving_chevron": true,
+            "cycle_out_in": true,
+            "cycle_out_in_dual": true,
+            "cycle_pinwheel": true,
+            "cycle_spiral": true,
+            "dual_beacon": true,
+            "rainbow_beacon": true,
+            "rainbow_pinwheels": true,
+            "raindrops": true,
+            "jellybean_raindrops": true,
+            "hue_breathing": true,
+            "hue_pendulum": true,
+            "hue_wave": true,
+            "pixel_rain": true,
+            "pixel_flow": true,
+            "pixel_fractal": true
+        },
+        "default": {
+            "val": 150
+        },
+        "driver": "ws2812",
+        "max_brightness": 200
+    
     },
-    "processor": "RP2040",
-    "url": "",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0001",
-        "vid": "0xFEED"
-    },
-    "layouts": {
-        "LAYOUT": {
+     "layouts": {
+        "LAYOUT_5x12": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
@@ -84,3 +136,4 @@
         }
     }
 }
+    
