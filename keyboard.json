@@ -1,4 +1,5 @@
- "manufacturer": "LeeZard",
+{
+    "manufacturer": "LeeZard",
     "keyboard_name": "Xplod",
     "maintainer": "LeeZard",
     "processor": "RP2040",
